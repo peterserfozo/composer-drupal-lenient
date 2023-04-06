@@ -18,7 +18,9 @@
         "composer-plugin-api": "^2.0"
     },
     "extra": {
-        "class": "ComposerDrupalLenient\\Plugin"
+        "class": "ComposerDrupalLenient\\Plugin",
+        "plugin-modifies-downloads": true,
+        "plugin-modifies-install-path": true
     },
     "require-dev": {
         "composer/composer": "^2.3",
